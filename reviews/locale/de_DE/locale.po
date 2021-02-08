@@ -1,0 +1,48 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2021-01-20T16:22:53+00:00\n"
+"PO-Revision-Date: 2021-01-20T16:22:53+00:00\n"
+"Language: \n"
+
+msgid "plugins.generic.reviewsTab.reviews.reviewer"
+msgstr "Gutachter"
+
+msgid "plugins.generic.reviewsTab.reviews.moneyQuote"
+msgstr "O-Ton"
+
+msgid "plugins.generic.reviewsTab.reviews.date"
+msgstr "Einreichung"
+
+msgid "plugins.generic.reviewsTab.reviews.lable.date"
+msgstr "Datum der Einreichung (YYYYMMDD)"
+
+msgid "plugins.generic.reviewsTab.reviews.link"
+msgstr "Link"
+
+msgid "plugins.generic.reviewsTab.reviews.linkName"
+msgstr "Name des Links"
+
+msgid "plugins.generic.reviewsTab.reviews.addReview"
+msgstr "Gutachten hinzufügen"
+
+msgid "plugins.generic.reviewsTab.reviews.tooltip.addReview"
+msgstr "Gutachten hinzufügen"
+
+msgid "plugins.generic.reviewsTab.reviews.title"
+msgstr "Gutachten"
+
+msgid "plugins.generic.reviewsTab.reviews.noneCreated"
+msgstr "Bislang gibt es keine Gutachten"
+
+msgid "plugins.generic.reviewsTab.reviews.dateFormat"
+msgstr "Das Datum muss das folgende Format haben: YYYYMMDD"
+
+msgid "plugins.generic.reviewsTab.reviews.urlFormat"
+msgstr "Url nicht gültig (http/https://...)"

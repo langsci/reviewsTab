@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE schema SYSTEM "../../../lib/pkp/dtd/xmlSchema.dtd">
+
+<!--
+/*
+ * @file plugins/generic/reviewsTab/schema.xml
+ *
+ * Created on Sun Jan 24 2021
+ *
+ * Copyright (c) 2021 Language Science Press
+ * Developed by Ronald Steffen
+ * Distributed under the MIT license. For full terms see the file docs/License.
+ *
+ */
+-->
+
+<schema version="0.2">
+	<!--
+	 *
+	 * TABLE langsci_review_links
+	 *
+	 -->
+	<table name="langsci_review_links">
+		<field name="review_id" type="I8">
+			<KEY/>
+			<AUTOINCREMENT/>
+		</field>
+		<field name="submission_id" type="I8">
+			<NOTNULL/>
+		</field>
+		<field name="publication_id" type="I8">
+			<NOTNULL/>
+		</field>
+		<field name="reviewer" type="C2" size="255"/>
+		<field name="money_quote" type="X"/>		
+		<field name="date" type="C2" size="255"/>
+		<field name="link" type="C2" size="255">
+			<NOTNULL/>
+		</field>
+		<field name="link_name" type="C2" size="255">
+			<NOTNULL/>
+		</field>
+		<descr>List of review links.</descr>
+	</table>
+</schema>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
