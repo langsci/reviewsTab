@@ -1,10 +1,13 @@
 {**
- * plugins/generic/catalogEntryTab/reviews/templates/editReviewForm.tpl
+ * plugins/generic/reviewsTab/reviews/templates/editReviewForm.tpl
  *
- * Copyright (c) 2016 Language Science Press
- * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+ * Created on Sun Jan 24 2021
  *
- *}
+ * Copyright (c) 2021 Language Science Press
+ * Developed by Ronald Steffen
+ * Distributed under the MIT license. For full terms see the file docs/License.
+ *
+ **}
 
 <script type="text/javascript">
 	$(function() {ldelim}
@@ -26,23 +29,23 @@
 	{fbvFormArea id="reviewsFormArea" class="border"}
 
 		{fbvFormSection}
-			{fbvElement type="text" label="plugins.generic.catalogEntryTab.reviews.linkName" id="linkName" value=$linkName required="true" inline=true multilingual=false size=$fbvStyles.size.MEDIUM}
+			{fbvElement type="text" label="plugins.generic.reviewsTab.reviews.linkName" id="linkName" value=$linkName required="true" inline=true multilingual=false size=$fbvStyles.size.MEDIUM}
 		{/fbvFormSection}
 
 		{fbvFormSection}
-			{fbvElement type="text" label="plugins.generic.catalogEntryTab.reviews.link" id="link" value=$link required="true" maxlength="50" inline=true multilingual=false size=$fbvStyles.size.MEDIUM}
+			{fbvElement type="text" label="plugins.generic.reviewsTab.reviews.link" id="link" value=$link required="true" maxlength="50" inline=true multilingual=false size=$fbvStyles.size.MEDIUM}
 		{/fbvFormSection}
 
 		{fbvFormSection}
-			{fbvElement type="text" label="plugins.generic.catalogEntryTab.reviews.reviewer" id="reviewer" value=$reviewer maxlength="50" inline=true multilingual=false size=$fbvStyles.size.MEDIUM}
+			{fbvElement type="text" label="plugins.generic.reviewsTab.reviews.reviewer" id="reviewer" value=$reviewer maxlength="50" inline=true multilingual=false size=$fbvStyles.size.MEDIUM}
 		{/fbvFormSection}
 
 		{fbvFormSection}
-			{fbvElement type="text" label="plugins.generic.catalogEntryTab.reviews.lable.date" id="date" value=$date maxlength="50" inline=true multilingual=false size=$fbvStyles.size.MEDIUM}
+			{fbvElement type="text" label="plugins.generic.reviewsTab.reviews.lable.date" id="date" value=$date maxlength="50" inline=true multilingual=false size=$fbvStyles.size.MEDIUM}
 		{/fbvFormSection}
 
 		{fbvFormSection}
-			{fbvElement type="textarea" label="plugins.generic.catalogEntryTab.reviews.moneyQuote" id="moneyQuote" value=$moneyQuote inline=true multilingual=false size=$fbvStyles.size.MEDIUM}
+			{fbvElement type="textarea" label="plugins.generic.reviewsTab.reviews.moneyQuote" id="moneyQuote" value=$moneyQuote inline=true multilingual=false size=$fbvStyles.size.MEDIUM}
 		{/fbvFormSection}
 
 		{fbvFormSection class="formButtons"}
