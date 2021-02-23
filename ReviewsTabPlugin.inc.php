@@ -19,7 +19,7 @@ import('lib.pkp.classes.plugins.GenericPlugin');
 
 define('REVIEWS_GRID_HANDLER','plugins.generic.reviewsTab.reviews.controllers.grid.ReviewsGridHandler');
 
-class reviewsTabPlugin extends GenericPlugin {
+class ReviewsTabPlugin extends GenericPlugin {
 
     function register($category, $path, $mainContextId = NULL) {
 

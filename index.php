@@ -15,8 +15,8 @@
  */
 
 
-require_once('reviewsTabPlugin.inc.php');
+require_once('ReviewsTabPlugin.inc.php');
 
-return new reviewsTabPlugin();
+return new ReviewsTabPlugin();
 
 ?>

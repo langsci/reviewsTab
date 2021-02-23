@@ -15,11 +15,11 @@
 -->
 
 <version>
-	<application>reviewsTabPlugin</application>
+	<application>reviewsTab</application>
 	<type>plugins.generic</type>
 	<release>1.0.0.0</release>
-	<date>2021-01-24</date>
+	<date>2021-02-23</date>
 	<lazy-load>1</lazy-load>
 	<sitewide>0</sitewide>
-	<class>reviewsTabPlugin</class>
+	<class>ReviewsTabPlugin</class>
 </version>
