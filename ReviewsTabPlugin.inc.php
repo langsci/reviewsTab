@@ -23,12 +23,13 @@ class ReviewsTabPlugin extends GenericPlugin {
 
     function register($category, $path, $mainContextId = NULL) {
 
+		$success = parent::register($category, $path, $mainContextId);
+		
 		// If the system isn't installed, or is performing an upgrade, don't
 		// register hooks. This will prevent DB access attempts before the
 		// schema is installed.
 		if (!Config::getVar('general', 'installed') || defined('RUNNING_UPGRADE')) return true;
 		
-		$success = parent::register($category, $path, $mainContextId);
         if ($success) {
             if ($this->getEnabled($mainContextId)) {   			
     			if ($this->getEnabled()) {
