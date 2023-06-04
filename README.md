@@ -15,3 +15,5 @@ The information stored is displayed on the frontend article page by the BookPage
 - when upgrading to OMP 3.2 the database table has to be modified:
   - add column `production_id` to table `langsci_review_links`: `ALTER TABLE langsci_review_links ADD publication_id bigint(2);`
   - run `update langsci_review_links lrl inner join publications p on lrl.submission_id = p.submission_id set lrl.publication_id = p.publication_id;` to sychronize IDs
+
+To create a new empty langsci_review_links database table execute `php tools/dbXMLtoSQL.php -schema print plugins/generic/reviewsTab/schema.xml` and run the printed SQL statement in the database.
