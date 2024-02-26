@@ -33,7 +33,7 @@
 		{/fbvFormSection}
 
 		{fbvFormSection}
-			{fbvElement type="text" label="plugins.generic.reviewsTab.reviews.link" id="link" value=$link required="true" maxlength="50" inline=true multilingual=false size=$fbvStyles.size.MEDIUM}
+			{fbvElement type="text" label="plugins.generic.reviewsTab.reviews.link" id="link" value=$link required="true" maxlength="150" inline=true multilingual=false size=$fbvStyles.size.MEDIUM}
 		{/fbvFormSection}
 
 		{fbvFormSection}
